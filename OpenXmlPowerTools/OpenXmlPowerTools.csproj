@@ -4,7 +4,7 @@
         <NoWarn>$(NoWarn);OOXML0001</NoWarn> <!--Experimental API in OpenXML-->
         <NoWarn>$(NoWarn);CA2200</NoWarn> <!--Rethrow changes stack information-->
 		<TargetFrameworks>net8.0</TargetFrameworks>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<Authors>Microsoft, Eric White, Lionel Vallet, Alexander Solovey</Authors>
 		<RepositoryUrl>https://github.com/sawcheg/OpenXmlPowerTools.NetCore</RepositoryUrl>
 		<PackageId>OpenXmlPowerTools.NetCore</PackageId>
